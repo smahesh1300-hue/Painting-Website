@@ -79,3 +79,43 @@ body {
     font-size: 30px;
     background-color: black;
 }
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.call {
+    background: orange;
+}
+
+.whatsapp {
+    background: #25D366;
+}
